@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE questions>
+
+<questions>
+  <question id="preg_1">
+  	<type>text</type>
+  	<title>1. Cuales son los colores de la bandera de tu españita, rojo y... </title>
+    <answer>amarillo</answer>
+  </question>
+
+  <question id="preg_2">
+  	<type>text</type>
+  	<title>2. Cuantos colores encontramos en la bandera de Francia: </title>
+  	<answer>3</answer>
+  </question>
+
+  <question id="preg_3">
+  	<type>select</type>
+  	<title>3. En que direccion van las lineas de la bandera de Belgica.</title>
+  	<option>Verticales</option>
+  	<option>Horizontal</option>
+  	<answer>0</answer>
+  </question>
+
+  <question id="preg_4">
+  	<type>select</type>
+  	<title>4. Donde tiene situado el sol la bandera de Uruguay.</title>
+  	<option>Abajo derecha</option>
+  	<option>Arriba izquierda</option>
+  	<option>Centrado</option>
+  	<option>Ninguna es correcta</option>
+  	<answer>1</answer>
+  </question>
+
+  <question id="preg_5">
+  	<type>multiple</type>
+  	<title>5. Cuantas estrellas y cuantas franjas tiene la bandera de EEUU.</title>
+    <option>49 estrellas</option>
+    <option>52 estrellas</option>
+    <option>13 franjas</option>
+    <option>15 franjas</option>
+    <option>50 estrellas</option>
+    <option>51 estrellas</option>
+    <option>10 franjas</option>
+  	<answer>4</answer>
+    <answer>2</answer>
+  </question>
+
+  <question id="preg_6">
+  	<type>multiple</type>
+  	<title>6. Que colores contiene la bandera de japon?</title>
+    <option>Verde</option>
+    <option>Amarillo</option>
+    <option>Blanco</option>
+    <option>Rojo</option>
+  	<answer>2</answer>
+    <answer>3</answer>
+  </question>
+
+  <question id="preg_7">
+  	<type>checkbox</type>
+  	<title>7. Que colores no aparecen en la bandera LGTBI:</title>
+    <option>Rojo</option>
+    <option>Negro</option>
+    <option>Verde</option>
+    <option>Blanco</option>
+  	<answer>2</answer>
+  </question>
+
+  <question id="preg_8">
+  	<type>checkbox</type>
+  	<title>8. Que dibujos tiene la bandera de Canada:</title>
+    <option>Bandas rojas</option>
+    <option>Hoja de Arce</option>
+    <option>Hoja de trebol</option>
+    <option>Hueso de aguacate</option>
+  	<answer>0</answer>
+    <answer>1</answer>
+  </question>
+
+  <question id="preg_9">
+  	<type>radio</type>
+  	<title>9. Que colores forman la bandera de Irlanda:</title>
+    <option>Naranja, negro y amarillo</option>
+    <option>Verde, blanco y naranja</option>
+    <option>Rojo y azul</option>
+    <option>Blanco a topos</option>
+  	<answer>1</answer>
+  </question>
+
+  <question id="preg_10">
+  	<type>radio</type>
+  	<title>10. Que significa que la bandera de la playa este roja:</title>
+    <option>Adelante</option>
+    <option>Precaucio</option>
+    <option>Prohibido</option>
+    <option>Medusas</option>
+  	<answer>2</answer>
+  </question>
+
+</questions>
