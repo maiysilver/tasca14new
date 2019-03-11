@@ -425,7 +425,7 @@ function comprobar(){
 //************************************************************************************************************************
 //Presentacion respuestas
 function mostrarNota(){
-	var p = document.createElement("h3");
+	var p = document.createElement("h2");
 	if(nota<0){
 		nota=0;
 	}
