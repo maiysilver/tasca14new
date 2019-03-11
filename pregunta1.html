@@ -10,21 +10,83 @@
 
 	</head>
 	<body>
-		<div id="page">
-			<section id="formulario2">
-				<div>
-					<h2 id="q1">Primera pregunta</h2>
+
+		<div id="preguntas">
+			<form id="formulario">
+				<div class="tipos" id="pregunta1">
+					<h3 id="q1">Pregunta 1</h3>
+					<input type='text' id="text1" placeholder="Escribe la respuesta" >
+					<br>
+					<br>
 				</div>
-			</section>
-			<section id="tablet2">
-				<form  class="formul2" action="pregunta2.html" method="post">
-					<ul class="centrado">
-					<li><input type='text' id="text1" placeholder="Escribe la respuesta" ></li>
-					</ul>
-					<ul><li><a href="pregunta2.html" id="boton">Siguiente</a></li></ul>
-					<!--<ul><li><input type="submit" value="Siguiente" id="boton2"></li></ul>-->
-				</form>
-			</section>
+				<div class="tipos" id="pregunta2">
+					<h3 id="q2">Pregunta 2</h3>
+					<input type='text' placeholder="Escribe la respuesta" >
+					<br>
+					<br>
+				</div>
+				<div class="tipos" id="pregunta3">
+					<h3 id="q3">Pregunta 3 </h3>
+					<select>
+						<option value ="-1">Selecciona una</option>
+					</select>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+				</div>
+				<div class="tipos" id="pregunta4">
+					<h3 id="q4">Pregunta 4</h3>
+					<select>
+						<option value ="-1">Selecciona una</option>
+					</select>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+				</div>
+				<div class="tipos" id="pregunta5">
+					<h3 id="q5">Pregunta 5</h3>
+					<select multiple>
+					</select>
+					<br>
+					<br>
+				</div>
+				<div class="tipos" id="pregunta6">
+					<h3 id="q6">Pregunta 6</h3>
+					<select multiple>
+					</select>
+					<br>
+					<br>
+				</div>
+				<div class="tipos checkbox" id="pregunta7">
+					<h3 id="q7">Pregunta 7</h3>
+				</div>
+				<div class="tipos checkbox" id="pregunta8">
+					<h3 id="q8">Pregunta 8</h3>
+				</div>
+				<div class="tipos radio" id="pregunta9">
+					<h3 id="q9">Pregunta 9</h3>
+				</div>
+				<div class="tipos radio" id="pregunta10">
+					<h3 id="q10">Pregunta 10</h3>
+				</div>
+				<div id="boton">
+					<input id="submit" type="image" name="boton" src="images/españita.png" alt="submit">
+				</div>
+			</form>
+
 		</div>
+
+		<div id="contenedor">
+			<div id="Resultado">
+				<div id="nota">
+				</div>
+			</div>
+		</div>
+
+
 	</body>
 </html>
